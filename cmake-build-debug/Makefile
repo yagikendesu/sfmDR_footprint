@@ -136,170 +136,170 @@ basicFunc: cmake_check_build_system
 
 # fast build rule for target.
 basicFunc/fast:
-	$(MAKE) -f basicFunction/CMakeFiles/basicFunc.dir/build.make basicFunction/CMakeFiles/basicFunc.dir/build
+	$(MAKE) -f src/basicFunction/CMakeFiles/basicFunc.dir/build.make src/basicFunction/CMakeFiles/basicFunc.dir/build
 .PHONY : basicFunc/fast
 
-Camera.o: Camera.cpp.o
+src/Camera.o: src/Camera.cpp.o
 
-.PHONY : Camera.o
-
-# target to build an object file
-Camera.cpp.o:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/Camera.cpp.o
-.PHONY : Camera.cpp.o
-
-Camera.i: Camera.cpp.i
-
-.PHONY : Camera.i
-
-# target to preprocess a source file
-Camera.cpp.i:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/Camera.cpp.i
-.PHONY : Camera.cpp.i
-
-Camera.s: Camera.cpp.s
-
-.PHONY : Camera.s
-
-# target to generate assembly for a file
-Camera.cpp.s:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/Camera.cpp.s
-.PHONY : Camera.cpp.s
-
-FootPrint.o: FootPrint.cpp.o
-
-.PHONY : FootPrint.o
+.PHONY : src/Camera.o
 
 # target to build an object file
-FootPrint.cpp.o:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/FootPrint.cpp.o
-.PHONY : FootPrint.cpp.o
+src/Camera.cpp.o:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/Camera.cpp.o
+.PHONY : src/Camera.cpp.o
 
-FootPrint.i: FootPrint.cpp.i
+src/Camera.i: src/Camera.cpp.i
 
-.PHONY : FootPrint.i
+.PHONY : src/Camera.i
 
 # target to preprocess a source file
-FootPrint.cpp.i:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/FootPrint.cpp.i
-.PHONY : FootPrint.cpp.i
+src/Camera.cpp.i:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/Camera.cpp.i
+.PHONY : src/Camera.cpp.i
 
-FootPrint.s: FootPrint.cpp.s
+src/Camera.s: src/Camera.cpp.s
 
-.PHONY : FootPrint.s
+.PHONY : src/Camera.s
 
 # target to generate assembly for a file
-FootPrint.cpp.s:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/FootPrint.cpp.s
-.PHONY : FootPrint.cpp.s
+src/Camera.cpp.s:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/Camera.cpp.s
+.PHONY : src/Camera.cpp.s
 
-ImageInfo.o: ImageInfo.cpp.o
+src/FootPrint.o: src/FootPrint.cpp.o
 
-.PHONY : ImageInfo.o
+.PHONY : src/FootPrint.o
 
 # target to build an object file
-ImageInfo.cpp.o:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/ImageInfo.cpp.o
-.PHONY : ImageInfo.cpp.o
+src/FootPrint.cpp.o:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/FootPrint.cpp.o
+.PHONY : src/FootPrint.cpp.o
 
-ImageInfo.i: ImageInfo.cpp.i
+src/FootPrint.i: src/FootPrint.cpp.i
 
-.PHONY : ImageInfo.i
+.PHONY : src/FootPrint.i
 
 # target to preprocess a source file
-ImageInfo.cpp.i:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/ImageInfo.cpp.i
-.PHONY : ImageInfo.cpp.i
+src/FootPrint.cpp.i:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/FootPrint.cpp.i
+.PHONY : src/FootPrint.cpp.i
 
-ImageInfo.s: ImageInfo.cpp.s
+src/FootPrint.s: src/FootPrint.cpp.s
 
-.PHONY : ImageInfo.s
+.PHONY : src/FootPrint.s
 
 # target to generate assembly for a file
-ImageInfo.cpp.s:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/ImageInfo.cpp.s
-.PHONY : ImageInfo.cpp.s
+src/FootPrint.cpp.s:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/FootPrint.cpp.s
+.PHONY : src/FootPrint.cpp.s
 
-Model.o: Model.cpp.o
+src/ImageInfo.o: src/ImageInfo.cpp.o
 
-.PHONY : Model.o
+.PHONY : src/ImageInfo.o
 
 # target to build an object file
-Model.cpp.o:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/Model.cpp.o
-.PHONY : Model.cpp.o
+src/ImageInfo.cpp.o:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/ImageInfo.cpp.o
+.PHONY : src/ImageInfo.cpp.o
 
-Model.i: Model.cpp.i
+src/ImageInfo.i: src/ImageInfo.cpp.i
 
-.PHONY : Model.i
+.PHONY : src/ImageInfo.i
 
 # target to preprocess a source file
-Model.cpp.i:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/Model.cpp.i
-.PHONY : Model.cpp.i
+src/ImageInfo.cpp.i:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/ImageInfo.cpp.i
+.PHONY : src/ImageInfo.cpp.i
 
-Model.s: Model.cpp.s
+src/ImageInfo.s: src/ImageInfo.cpp.s
 
-.PHONY : Model.s
+.PHONY : src/ImageInfo.s
 
 # target to generate assembly for a file
-Model.cpp.s:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/Model.cpp.s
-.PHONY : Model.cpp.s
+src/ImageInfo.cpp.s:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/ImageInfo.cpp.s
+.PHONY : src/ImageInfo.cpp.s
 
-OpenPosePerson.o: OpenPosePerson.cpp.o
+src/Model.o: src/Model.cpp.o
 
-.PHONY : OpenPosePerson.o
+.PHONY : src/Model.o
 
 # target to build an object file
-OpenPosePerson.cpp.o:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/OpenPosePerson.cpp.o
-.PHONY : OpenPosePerson.cpp.o
+src/Model.cpp.o:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/Model.cpp.o
+.PHONY : src/Model.cpp.o
 
-OpenPosePerson.i: OpenPosePerson.cpp.i
+src/Model.i: src/Model.cpp.i
 
-.PHONY : OpenPosePerson.i
+.PHONY : src/Model.i
 
 # target to preprocess a source file
-OpenPosePerson.cpp.i:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/OpenPosePerson.cpp.i
-.PHONY : OpenPosePerson.cpp.i
+src/Model.cpp.i:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/Model.cpp.i
+.PHONY : src/Model.cpp.i
 
-OpenPosePerson.s: OpenPosePerson.cpp.s
+src/Model.s: src/Model.cpp.s
 
-.PHONY : OpenPosePerson.s
+.PHONY : src/Model.s
 
 # target to generate assembly for a file
-OpenPosePerson.cpp.s:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/OpenPosePerson.cpp.s
-.PHONY : OpenPosePerson.cpp.s
+src/Model.cpp.s:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/Model.cpp.s
+.PHONY : src/Model.cpp.s
 
-main.o: main.cpp.o
+src/OpenPosePerson.o: src/OpenPosePerson.cpp.o
 
-.PHONY : main.o
+.PHONY : src/OpenPosePerson.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/OpenPosePerson.cpp.o:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/OpenPosePerson.cpp.o
+.PHONY : src/OpenPosePerson.cpp.o
 
-main.i: main.cpp.i
+src/OpenPosePerson.i: src/OpenPosePerson.cpp.i
 
-.PHONY : main.i
+.PHONY : src/OpenPosePerson.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/OpenPosePerson.cpp.i:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/OpenPosePerson.cpp.i
+.PHONY : src/OpenPosePerson.cpp.i
 
-main.s: main.cpp.s
+src/OpenPosePerson.s: src/OpenPosePerson.cpp.s
 
-.PHONY : main.s
+.PHONY : src/OpenPosePerson.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/OpenPosePerson.cpp.s:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/OpenPosePerson.cpp.s
+.PHONY : src/OpenPosePerson.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -311,24 +311,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... sfmDR_footPrint"
 	@echo "... basicFunc"
-	@echo "... Camera.o"
-	@echo "... Camera.i"
-	@echo "... Camera.s"
-	@echo "... FootPrint.o"
-	@echo "... FootPrint.i"
-	@echo "... FootPrint.s"
-	@echo "... ImageInfo.o"
-	@echo "... ImageInfo.i"
-	@echo "... ImageInfo.s"
-	@echo "... Model.o"
-	@echo "... Model.i"
-	@echo "... Model.s"
-	@echo "... OpenPosePerson.o"
-	@echo "... OpenPosePerson.i"
-	@echo "... OpenPosePerson.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Camera.o"
+	@echo "... src/Camera.i"
+	@echo "... src/Camera.s"
+	@echo "... src/FootPrint.o"
+	@echo "... src/FootPrint.i"
+	@echo "... src/FootPrint.s"
+	@echo "... src/ImageInfo.o"
+	@echo "... src/ImageInfo.i"
+	@echo "... src/ImageInfo.s"
+	@echo "... src/Model.o"
+	@echo "... src/Model.i"
+	@echo "... src/Model.s"
+	@echo "... src/OpenPosePerson.o"
+	@echo "... src/OpenPosePerson.i"
+	@echo "... src/OpenPosePerson.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sfmDR_footPrint.dir/main.cpp.o"
-  "CMakeFiles/sfmDR_footPrint.dir/Model.cpp.o"
-  "CMakeFiles/sfmDR_footPrint.dir/Camera.cpp.o"
-  "CMakeFiles/sfmDR_footPrint.dir/FootPrint.cpp.o"
-  "CMakeFiles/sfmDR_footPrint.dir/OpenPosePerson.cpp.o"
-  "CMakeFiles/sfmDR_footPrint.dir/ImageInfo.cpp.o"
+  "CMakeFiles/sfmDR_footPrint.dir/src/main.cpp.o"
+  "CMakeFiles/sfmDR_footPrint.dir/src/Model.cpp.o"
+  "CMakeFiles/sfmDR_footPrint.dir/src/Camera.cpp.o"
+  "CMakeFiles/sfmDR_footPrint.dir/src/FootPrint.cpp.o"
+  "CMakeFiles/sfmDR_footPrint.dir/src/OpenPosePerson.cpp.o"
+  "CMakeFiles/sfmDR_footPrint.dir/src/ImageInfo.cpp.o"
   "sfmDR_footPrint.pdb"
   "sfmDR_footPrint"
 )

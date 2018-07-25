@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug
 # Target rules for target CMakeFiles/sfmDR_footPrint.dir
 
 # All Build rule for target.
-CMakeFiles/sfmDR_footPrint.dir/all: basicFunction/CMakeFiles/basicFunc.dir/all
+CMakeFiles/sfmDR_footPrint.dir/all: src/basicFunction/CMakeFiles/basicFunc.dir/all
 	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/depend
 	$(MAKE) -f CMakeFiles/sfmDR_footPrint.dir/build.make CMakeFiles/sfmDR_footPrint.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7,8,9 "Built target sfmDR_footPrint"
@@ -100,57 +100,57 @@ clean: CMakeFiles/sfmDR_footPrint.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory basicFunction
+# Directory level rules for directory src/basicFunction
 
 # Convenience name for "all" pass in the directory.
-basicFunction/all: basicFunction/CMakeFiles/basicFunc.dir/all
+src/basicFunction/all: src/basicFunction/CMakeFiles/basicFunc.dir/all
 
-.PHONY : basicFunction/all
+.PHONY : src/basicFunction/all
 
 # Convenience name for "clean" pass in the directory.
-basicFunction/clean: basicFunction/CMakeFiles/basicFunc.dir/clean
+src/basicFunction/clean: src/basicFunction/CMakeFiles/basicFunc.dir/clean
 
-.PHONY : basicFunction/clean
+.PHONY : src/basicFunction/clean
 
 # Convenience name for "preinstall" pass in the directory.
-basicFunction/preinstall:
+src/basicFunction/preinstall:
 
-.PHONY : basicFunction/preinstall
+.PHONY : src/basicFunction/preinstall
 
 #=============================================================================
-# Target rules for target basicFunction/CMakeFiles/basicFunc.dir
+# Target rules for target src/basicFunction/CMakeFiles/basicFunc.dir
 
 # All Build rule for target.
-basicFunction/CMakeFiles/basicFunc.dir/all:
-	$(MAKE) -f basicFunction/CMakeFiles/basicFunc.dir/build.make basicFunction/CMakeFiles/basicFunc.dir/depend
-	$(MAKE) -f basicFunction/CMakeFiles/basicFunc.dir/build.make basicFunction/CMakeFiles/basicFunc.dir/build
+src/basicFunction/CMakeFiles/basicFunc.dir/all:
+	$(MAKE) -f src/basicFunction/CMakeFiles/basicFunc.dir/build.make src/basicFunction/CMakeFiles/basicFunc.dir/depend
+	$(MAKE) -f src/basicFunction/CMakeFiles/basicFunc.dir/build.make src/basicFunction/CMakeFiles/basicFunc.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target basicFunc"
-.PHONY : basicFunction/CMakeFiles/basicFunc.dir/all
+.PHONY : src/basicFunction/CMakeFiles/basicFunc.dir/all
 
 # Include target in all.
-all: basicFunction/CMakeFiles/basicFunc.dir/all
+all: src/basicFunction/CMakeFiles/basicFunc.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-basicFunction/CMakeFiles/basicFunc.dir/rule: cmake_check_build_system
+src/basicFunction/CMakeFiles/basicFunc.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 basicFunction/CMakeFiles/basicFunc.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/basicFunction/CMakeFiles/basicFunc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/CMakeFiles 0
-.PHONY : basicFunction/CMakeFiles/basicFunc.dir/rule
+.PHONY : src/basicFunction/CMakeFiles/basicFunc.dir/rule
 
 # Convenience name for target.
-basicFunc: basicFunction/CMakeFiles/basicFunc.dir/rule
+basicFunc: src/basicFunction/CMakeFiles/basicFunc.dir/rule
 
 .PHONY : basicFunc
 
 # clean rule for target.
-basicFunction/CMakeFiles/basicFunc.dir/clean:
-	$(MAKE) -f basicFunction/CMakeFiles/basicFunc.dir/build.make basicFunction/CMakeFiles/basicFunc.dir/clean
-.PHONY : basicFunction/CMakeFiles/basicFunc.dir/clean
+src/basicFunction/CMakeFiles/basicFunc.dir/clean:
+	$(MAKE) -f src/basicFunction/CMakeFiles/basicFunc.dir/build.make src/basicFunction/CMakeFiles/basicFunc.dir/clean
+.PHONY : src/basicFunction/CMakeFiles/basicFunc.dir/clean
 
 # clean rule for target.
-clean: basicFunction/CMakeFiles/basicFunc.dir/clean
+clean: src/basicFunction/CMakeFiles/basicFunc.dir/clean
 
 .PHONY : clean
 
