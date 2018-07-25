@@ -13,41 +13,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9aabe96a-7ce1-4ea2-8d97-dd38a23c39aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Camera.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Camera.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FootPrint.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/FootPrint.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ImageInfo.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ImageInfo.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Model.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Model.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPosePerson.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenPosePerson.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basicFunction/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basicFunction/basicFunction.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basicFunction/basicFunction.h" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/Camera.cpp.o" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/FootPrint.cpp.o" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/Model.cpp.o" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/main.cpp.o" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Camera.cpp" afterPath="$PROJECT_DIR$/src/Camera.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Camera.h" afterPath="$PROJECT_DIR$/src/Camera.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FootPrint.cpp" afterPath="$PROJECT_DIR$/src/FootPrint.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FootPrint.h" afterPath="$PROJECT_DIR$/src/FootPrint.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ImageInfo.cpp" afterPath="$PROJECT_DIR$/src/ImageInfo.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ImageInfo.h" afterPath="$PROJECT_DIR$/src/ImageInfo.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Model.cpp" afterPath="$PROJECT_DIR$/src/Model.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Model.h" afterPath="$PROJECT_DIR$/src/Model.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/OpenPosePerson.cpp" afterPath="$PROJECT_DIR$/src/OpenPosePerson.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/OpenPosePerson.h" afterPath="$PROJECT_DIR$/src/OpenPosePerson.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basicFunction/CMakeLists.txt" afterPath="$PROJECT_DIR$/src/basicFunction/CMakeLists.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basicFunction/basicFunction.cpp" afterPath="$PROJECT_DIR$/src/basicFunction/basicFunction.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/basicFunction/basicFunction.h" afterPath="$PROJECT_DIR$/src/basicFunction/basicFunction.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/sfmDR_footPrint" afterPath="$PROJECT_DIR$/cmake-build-debug/sfmDR_footPrint" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sfmDR_footPrint.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/sfmDR_footPrint.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/sfmDR_footPrint.cbp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main.cpp" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -359,16 +342,15 @@
       <option name="presentableId" value="Default" />
       <updated>1532395043702</updated>
       <workItem from="1532395045528" duration="28072000" />
-      <workItem from="1532499086669" duration="1939000" />
+      <workItem from="1532499086669" duration="2086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30011000" />
+    <option name="totallyTimeSpent" value="30158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1984" y="-4" width="1857" height="1085" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -376,7 +358,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25261998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
