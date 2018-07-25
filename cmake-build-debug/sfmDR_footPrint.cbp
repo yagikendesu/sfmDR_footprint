@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sfmDR_footPrint"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;CMake Files\basicFunction\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sfmDR_footPrint">
+				<Option output="/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/sfmDR_footPrint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 sfmDR_footPrint"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sfmDR_footPrint/fast">
+				<Option output="/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/sfmDR_footPrint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 sfmDR_footPrint/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="basicFunc">
+				<Option output="/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/basicFunction/libbasicFunc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/basicFunction"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/basicFunction/Makefile&quot;  VERBOSE=1 basicFunc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/basicFunction/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/basicFunction/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/basicFunction/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="basicFunc/fast">
+				<Option output="/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/basicFunction/libbasicFunc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/basicFunction"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/basicFunction/Makefile&quot;  VERBOSE=1 basicFunc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/basicFunction/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/basicFunction/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yagi/CLionProjects/sfmDR_footPrint/cmake-build-debug/basicFunction/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/Camera.cpp">
+			<Option target="sfmDR_footPrint"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/Camera.h">
+			<Option target="sfmDR_footPrint"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/FootPrint.cpp">
+			<Option target="sfmDR_footPrint"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/FootPrint.h">
+			<Option target="sfmDR_footPrint"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/ImageInfo.cpp">
+			<Option target="sfmDR_footPrint"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/ImageInfo.h">
+			<Option target="sfmDR_footPrint"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/Model.cpp">
+			<Option target="sfmDR_footPrint"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/Model.h">
+			<Option target="sfmDR_footPrint"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/OpenPosePerson.cpp">
+			<Option target="sfmDR_footPrint"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/OpenPosePerson.h">
+			<Option target="sfmDR_footPrint"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/basicFunction/basicFunction.cpp">
+			<Option target="basicFunc"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/basicFunction/basicFunction.h">
+			<Option target="basicFunc"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/main.cpp">
+			<Option target="sfmDR_footPrint"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/cmake/OpenCV.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/../../../../usr/local/share/OpenCV/OpenCVModules-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/yagi/CLionProjects/sfmDR_footPrint/basicFunction/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\basicFunction\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

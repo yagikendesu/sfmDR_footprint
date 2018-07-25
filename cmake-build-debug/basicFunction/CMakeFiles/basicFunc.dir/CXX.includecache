@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yagi/CLionProjects/sfmDR_footPrint/basicFunction/basicFunction.cpp
+basicFunction.h
+/home/yagi/CLionProjects/sfmDR_footPrint/basicFunction/basicFunction.h
+sstream
+-
+
+/home/yagi/CLionProjects/sfmDR_footPrint/basicFunction/basicFunction.h
+iostream
+-
+vector
+-
+
